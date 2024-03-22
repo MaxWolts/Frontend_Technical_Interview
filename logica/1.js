@@ -18,5 +18,25 @@
 // {car: 'y', veces: 2}
 
 const contarCar = (value) => {
-  return;
+  const charCounter = {};
+  const normalizedString = value.toLowerCase().replace(/[^a-z0-9ñ]/g, '');
+  //si no se cuenta la Ñ usar la siguiente linea en lugar de la anterior.
+  // const normalizedString = value.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+  for (const char of normalizedString) {
+    charCounter[char] = (charCounter[char] || 0) + 1;
+  };
+
+  const matriz = Object.entries(charCounter).map(([char, veces]) => ({
+    car: char,
+    veces,
+  }));
+
+  const result = matriz.sort((a, b) => a.car.localeCompare(b.car));
+
+  return result;
+
 };
+
+const text = "Hoy ya es día 10, mañana es 11 y pasado mañana 12";
+console.log(contarCar(text));
