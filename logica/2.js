@@ -14,5 +14,29 @@
  */
 
 const t9Keyboard = (value) => {
-  return;
+  let result = "";
+  const t9ToLetter = {
+    '1': ',.?!',
+    '2': 'ABC', '3': 'DEF', '4': 'GHI',
+    '5': 'JKL', '6': 'MNO', '7': 'PQRS',
+    '8': 'TUV', '9': 'WXYZ', '0': " ",
+  };
+  const lettersArray = value.split("-");
+
+  lettersArray.forEach(element => {
+    let position = element.length;
+    const t9ElementLength = t9ToLetter[element[0]].length;
+
+    //si se apreta más veces el número de opciones disponibles, vuelve a comenzar desde la primera opcion.
+    while (position > t9ElementLength) {
+      position = position - t9ElementLength;
+    }
+
+    position--;
+    result += t9ToLetter[element[0]][position];
+  });
+
+  return result;
 };
+
+console.log(t9Keyboard("6-666-88-777-33-3-33-888-00000-44444444-666666-555-2-11111111-1111-1111"));
