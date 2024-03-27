@@ -5,8 +5,9 @@
   justify-items: center;
   padding-top: 2rem;
   padding-bottom: 6rem;
-  min-height: 100vh;
-  min-height: 100dvh;
+  margin: 0 auto;
+  max-width: 34rem;
+  min-height: 700px;
   position: relative;
 }
 
@@ -55,7 +56,7 @@
 .cardContainer .imageStyle0{
   height: 27.5rem;
   overflow: hidden;
-  width: 21.375;
+  width: 21.375rem;
 }
 
 .cardContainer .imageStyle0 img{

@@ -30,3 +30,14 @@ Se debe usar con cuidado y ver la posibilidad de reemplazarlos si no afectan a l
 .hiddenPagination .swiper-pagination{
   display: none !important;
 }
+
+.swiper-wrapper {
+  max-height: 700px;
+}
+
+@media (min-height: 700px) {
+  .swiper-initialized {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

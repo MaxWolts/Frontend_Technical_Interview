@@ -30,7 +30,6 @@ export const Carousel = () => {
           },
         }}
         scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={(swiper) => handleSlideChange(swiper.isEnd)}
         className={isEnd? `hiddenPagination ${styles.heightInLastCard}` : ""}
       >

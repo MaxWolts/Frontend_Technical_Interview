@@ -1,5 +1,6 @@
 .carouselContainer {
   text-align: center;
+
 }
 
 .carouselContainer .paginationButton {
@@ -17,3 +18,9 @@
   height: 100vh;
 }
 
+@media (min-height: 700px) {
+  .carouselContainer {
+    height: 100vh;
+    height: 100dvh;
+  }
+}
