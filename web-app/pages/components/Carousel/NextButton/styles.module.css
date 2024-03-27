@@ -1,0 +1,15 @@
+.nextButton {
+  background: none;
+  border: 1px solid var(--primaryGreen);
+  border-radius: .5rem;
+  bottom: 1rem;
+  color: var(--primaryGreen);
+  font-size: 1rem;
+  font-weight: 900;
+  left: 50%;
+  margin: 1rem 0;
+  padding: 1rem 7.75rem;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 10;
+}

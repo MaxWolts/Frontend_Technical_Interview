@@ -12,3 +12,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.swiper-pagination {
+  top: 0rem !important;
+  position: relative;
+}
+
+.swiper-scrollbar {
+  display: none;
+}
+
+.hiddenPagination .swiper-pagination{
+  display: none !important;
+}

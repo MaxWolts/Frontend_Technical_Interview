@@ -1,5 +1,6 @@
 import Image from "next/image";
 import localFont from 'next/font/local';
+// import { NextButton } from "../NextButton";
 import styles from "./styles.module.css";
 
 interface Props {
@@ -47,7 +48,8 @@ export const Card = ({
           <Image src={background} alt={"imagen vectorial de fondo"} fill />
         </div>
       )}
-      <button className={styles.nextButton}>SIGUIENTE</button>
+      {/* <NextButton /> */}
+      {/* <button className={styles.nextButton}>SIGUIENTE</button> */}
     </div>
   )
 };

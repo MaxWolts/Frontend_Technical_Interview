@@ -1,0 +1,19 @@
+.carouselContainer {
+  text-align: center;
+}
+
+.carouselContainer .paginationButton {
+  width: 60px;
+  height: .5rem;
+  background-color:var(--primaryGreen);
+  border-radius: 4px;
+}
+
+.carouselContainer .disappear {
+  display: none;
+}
+
+.heightInLastCard {
+  height: 100vh;
+}
+
