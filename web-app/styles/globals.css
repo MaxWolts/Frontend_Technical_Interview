@@ -13,6 +13,11 @@
   box-sizing: border-box;
 }
 
+/*nunca se recomienda en uso de importan
+En mi trabajo anterior se usaba para manejar estilos de componentes de librerias.
+de difícil acceso en determinados puntos.
+Se debe usar con cuidado y ver la posibilidad de reemplazarlos si no afectan a los tiempos.
+*/
 .swiper-pagination {
   top: 0rem !important;
   position: relative;

@@ -1,6 +1,6 @@
 .nextButton {
   background: none;
-  border: 1px solid var(--primaryGreen);
+  border: 0.063rem solid var(--primaryGreen);
   border-radius: .5rem;
   bottom: 1rem;
   color: var(--primaryGreen);

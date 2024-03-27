@@ -53,9 +53,9 @@
 }
 
 .cardContainer .imageStyle0{
-  height: 440px;
+  height: 27.5rem;
   overflow: hidden;
-  width: 342px;
+  width: 21.375;
 }
 
 .cardContainer .imageStyle0 img{
@@ -64,18 +64,18 @@
 }
 
 .cardContainer .imageStyle1{
-  height: 337px;
-  width: 327px;
+  height: 21.063rem;
+  width: 20.438rem;
 }
 
 .cardContainer .imageStyle2{
-  height: 357px;
-  width: 263px;
+  height: 22.313rem;
+  width: 16.438rem;
 }
 
 .cardContainer .imageStyle3{
-  height: 432px;
-  width: 335px;
+  height: 27rem;
+  width: 20.938rem;
   margin-top: 2rem;
 }
 
