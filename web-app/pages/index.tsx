@@ -1,16 +1,12 @@
 import Head from "next/head";
+import { Carousel } from "./components/Carousel";
 import { Nunito_Sans } from "next/font/google";
-import localFont from 'next/font/local'
 import styles from "@/styles/Home.module.css";
- 
-const myFont = localFont({
-  src: '../public/fonts/Fontspring-DEMO-integralcf-regular.otf',
-});
+
 const nunito = Nunito_Sans({ subsets: ["latin"] });
 
-
-
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -19,8 +15,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-        <h1 className={nunito.className}>Hello</h1>
+      <main className={`${styles.main} ${nunito.className}`}>
+        <Carousel />
       </main>
     </>
   );

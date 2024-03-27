@@ -1,0 +1,14 @@
+:root {
+  --primaryBlack: #0A0A0A;
+  --primaryGreen: #64C883;
+  --secondaryGold: #C9A555;
+  --secondaryBlack: #171717;
+  --white: #f9f9f9;
+  /* nunca se usa blanco puro para pantallas por eso uso este */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
