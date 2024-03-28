@@ -1,0 +1,1 @@
+Actualmente hay un inconveniente con dos imágenes svg por su peso. Next.js facilita su carga pero aún deben desarmarse para mejorar la carga.
