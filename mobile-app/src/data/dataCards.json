@@ -1,0 +1,38 @@
+[
+  {
+    "title": "BIENVENIDO A WIN",
+    "subtitleStrong": "EL ÚNICO MARKETPLACE DE FÚTBOL",
+    "subtitle": "",
+    "description": "INVIERTE EN EL MERCADO DE PASES Y DISFRUTA DE EXPERIENCIAS ÚNICAS",
+    "descriptionStrong": "",
+    "image": "../../assets/images/card1.svg",
+    "background": "../../assets/images/background1.svg"
+  },
+  {
+    "title": "INGRESA AL MERCADO DE PASES",
+    "subtitleStrong": "",
+    "subtitle": "",
+    "description": "INVIERTE Y GANA CON LA PRÓXIMA",
+    "descriptionStrong": "TRANSFERENCIA DEL JUGADOR",
+    "image": "../../assets/images/card2.svg",
+    "background": "../../assets/images/background2.svg"
+  },
+  {
+    "title": "VIVE TUS PROPIAS EXPERIENCIAS",
+    "subtitleStrong": "VIVE TU PASIÓN DE FORMA ÚNICA",
+    "subtitle": " COMO NUNCA LO IMAGINASTE",
+    "description": "",
+    "descriptionStrong": "",
+    "image": "../../assets/images/card3.svg",
+    "background": ""
+  },
+  {
+    "title": "DESCUBRE LOS MEJORES CLUBES",
+    "subtitleStrong": "",
+    "subtitle": "",
+    "description": "DONDE JUEGAN",
+    "descriptionStrong": "NUESTROS JUGADORES",
+    "image": "../../assets/images/card4.svg",
+    "background": ""
+  }
+]
